@@ -1,4 +1,26 @@
 {
+ "covers": [
+  {
+   "id": "drink",
+   "name": "水底抓魚"
+  },
+  {
+   "id": "hunt",
+   "name": "撲蜻蜓"
+  },
+  {
+   "id": "relax",
+   "name": "伸懶腰"
+  },
+  {
+   "id": "stroll",
+   "name": "散步"
+  },
+  {
+   "id": "home",
+   "name": "窗邊洗澡"
+  }
+ ],
  "cats": [
   {
    "id": "nes",
@@ -173,7 +195,7 @@
    "name": "在家搗蛋"
   }
  ],
- "version": 1791959609,
+ "version": 1791960560,
  "phases": [
   "dawn",
   "day",
@@ -384,5 +406,42 @@
   "tortie_top_day": "7a43e359f702",
   "tortie_top_dusk": "5861bc2dc9b6",
   "tortie_top_night": "b5e12e65d9b9"
+ },
+ "coverFiles": {
+  "arcade_drink": "aa2987376fe2",
+  "arcade_home": "61108326a253",
+  "arcade_hunt": "27320d46bc44",
+  "arcade_relax": "7071cccc1d68",
+  "arcade_stroll": "23e3744d7a2c",
+  "berry_drink": "8bbd8ae19e61",
+  "berry_home": "5ced59fd17b1",
+  "berry_hunt": "05802f076514",
+  "berry_relax": "aa2cdade6ee5",
+  "berry_stroll": "cc671b2ba37f",
+  "black_drink": "4a4b43c15d9b",
+  "black_home": "a66b0e7fe19a",
+  "black_hunt": "419425e89392",
+  "black_relax": "a49d1cc5da1f",
+  "black_stroll": "1b8c0d7ea2cf",
+  "gb_drink": "a7613861eab2",
+  "gb_home": "f70898e626e5",
+  "gb_hunt": "cd1c41f819ff",
+  "gb_relax": "39f0874f9a67",
+  "gb_stroll": "e684f639dbbf",
+  "nes_drink": "9ef1cad27e30",
+  "nes_home": "8c5f3ebd130f",
+  "nes_hunt": "af22f6804827",
+  "nes_relax": "5bea44224b3f",
+  "nes_stroll": "eed098e1b89f",
+  "silver_drink": "dbc0ae34cd93",
+  "silver_home": "759f90e86db2",
+  "silver_hunt": "4fafc5b71dfe",
+  "silver_relax": "31ea837ec12d",
+  "silver_stroll": "38f83baa6c3c",
+  "tortie_drink": "72d21c0c7fee",
+  "tortie_home": "fc842eb779ca",
+  "tortie_hunt": "a4ea4bc778e0",
+  "tortie_relax": "17ab85ea03d5",
+  "tortie_stroll": "9baae247a884"
  }
 }
