@@ -1,0 +1,388 @@
+{
+ "cats": [
+  {
+   "id": "nes",
+   "name": "紅白機・白貓",
+   "accent": "#E45C10",
+   "ink": "#000000",
+   "sky": "#3CBCFC"
+  },
+  {
+   "id": "gb",
+   "name": "GameBoy・虎斑",
+   "accent": "#306230",
+   "ink": "#0F380F",
+   "sky": "#9BBC0F"
+  },
+  {
+   "id": "arcade",
+   "name": "街機霓虹・橘貓",
+   "accent": "#FF4FA3",
+   "ink": "#0B0618",
+   "sky": "#140C2E"
+  },
+  {
+   "id": "berry",
+   "name": "像素草莓・三花",
+   "accent": "#E8457A",
+   "ink": "#3A1F2B",
+   "sky": "#FF9EC4"
+  },
+  {
+   "id": "tortie",
+   "name": "黃昏森林・玳瑁",
+   "accent": "#C8402C",
+   "ink": "#120C0A",
+   "sky": "#F28A50"
+  },
+  {
+   "id": "silver",
+   "name": "雪夜・銀虎斑",
+   "accent": "#58C8F8",
+   "ink": "#14161C",
+   "sky": "#1E2C5A"
+  },
+  {
+   "id": "black",
+   "name": "萬聖夜・黑貓",
+   "accent": "#F88038",
+   "ink": "#000000",
+   "sky": "#2A1840"
+  }
+ ],
+ "dialogs": [
+  {
+   "id": "snack",
+   "name": "原版・要點心",
+   "tag": "MEOW",
+   "q": [
+    "Hey hooman!",
+    "Can I have a snack?"
+   ],
+   "a": [
+    "YES!",
+    "OF COURSE!"
+   ]
+  },
+  {
+   "id": "rent",
+   "name": "房東收租",
+   "tag": "LANDLORD",
+   "q": [
+    "Your rent is due.",
+    "I accept treats."
+   ],
+   "a": [
+    "PAY UP",
+    "MORE TREATS"
+   ]
+  },
+  {
+   "id": "cup",
+   "name": "打翻杯子",
+   "tag": "OOPS",
+   "q": [
+    "I knocked your cup",
+    "off the table."
+   ],
+   "a": [
+    "WHY?!",
+    "IT WAS ART"
+   ]
+  },
+  {
+   "id": "zoom",
+   "name": "半夜暴衝",
+   "tag": "ZOOMIES",
+   "q": [
+    "It's 3AM. Perfect",
+    "time to sprint!"
+   ],
+   "a": [
+    "PLEASE NO",
+    "ZZZ..."
+   ]
+  },
+  {
+   "id": "empty",
+   "name": "碗空了",
+   "tag": "HANGRY",
+   "q": [
+    "My bowl is EMPTY!",
+    "I see the BOTTOM!"
+   ],
+   "a": [
+    "REFILL",
+    "IT'S FULL..."
+   ]
+  },
+  {
+   "id": "bowl",
+   "name": "碗沒全滿",
+   "tag": "HANGRY",
+   "q": [
+    "My bowl is only",
+    "90% full. HELP!"
+   ],
+   "a": [
+    "REFILL",
+    "CALL 911"
+   ]
+  },
+  {
+   "id": "bite",
+   "name": "摸摸咬咬",
+   "tag": "MOOD",
+   "q": [
+    "Pet me.",
+    "...Now stop. Bite."
+   ],
+   "a": [
+    "OUCH",
+    "WORTH IT"
+   ]
+  }
+ ],
+ "scenes": [
+  {
+   "id": "front",
+   "name": "正面喝水"
+  },
+  {
+   "id": "top",
+   "name": "俯瞰喝水"
+  },
+  {
+   "id": "back",
+   "name": "背面喝水"
+  },
+  {
+   "id": "hunt",
+   "name": "追蜻蜓"
+  },
+  {
+   "id": "relax",
+   "name": "曬太陽理毛"
+  },
+  {
+   "id": "stroll",
+   "name": "慵懶散步"
+  },
+  {
+   "id": "home",
+   "name": "在家搗蛋"
+  }
+ ],
+ "version": 1791959609,
+ "phases": [
+  "dawn",
+  "day",
+  "dusk",
+  "night"
+ ],
+ "sheet": {
+  "w": 60,
+  "h": 140,
+  "cols": 12,
+  "frames": 144,
+  "fps": 12
+ },
+ "files": {
+  "arcade_back_dawn": "8c0e5c01e258",
+  "arcade_back_day": "30570f412ed1",
+  "arcade_back_dusk": "c3a63906b0c2",
+  "arcade_back_night": "6575292619cd",
+  "arcade_front_dawn": "1d1d2e4d2ae3",
+  "arcade_front_day": "1846b1dec949",
+  "arcade_front_dusk": "e9ba594eee8c",
+  "arcade_front_night": "faca83e9eb0a",
+  "arcade_home_dawn": "d1d5a3e555e6",
+  "arcade_home_day": "2ed8b1fac3e8",
+  "arcade_home_dusk": "89b5a81b104f",
+  "arcade_home_night": "0102fe78b976",
+  "arcade_hunt_dawn": "2b0ad8f41494",
+  "arcade_hunt_day": "712e2b92c645",
+  "arcade_hunt_dusk": "7540d6bca780",
+  "arcade_hunt_night": "6f1d623670a1",
+  "arcade_relax_dawn": "bbe7f5b1b67b",
+  "arcade_relax_day": "ce523876471d",
+  "arcade_relax_dusk": "8381f7442be9",
+  "arcade_relax_night": "3337aa19f33f",
+  "arcade_stroll_dawn": "c10f83f41e4a",
+  "arcade_stroll_day": "64945eb93e2b",
+  "arcade_stroll_dusk": "c98c8a3b39fa",
+  "arcade_stroll_night": "e5c0833c08f0",
+  "arcade_top_dawn": "aff5d14b490a",
+  "arcade_top_day": "2f88b29be0ef",
+  "arcade_top_dusk": "96dc87b51620",
+  "arcade_top_night": "b677d69a8b4e",
+  "berry_back_dawn": "aefca36d2464",
+  "berry_back_day": "af0b8bf3b158",
+  "berry_back_dusk": "e1c721ba4556",
+  "berry_back_night": "bd4b8cde9a50",
+  "berry_front_dawn": "11f9c91b9dbf",
+  "berry_front_day": "149c43998201",
+  "berry_front_dusk": "7c194f7843e7",
+  "berry_front_night": "a3c043036c50",
+  "berry_home_dawn": "bb8a82921531",
+  "berry_home_day": "e2b623c5058f",
+  "berry_home_dusk": "3bd434f89402",
+  "berry_home_night": "518476c862d4",
+  "berry_hunt_dawn": "313336f6d822",
+  "berry_hunt_day": "0b32c544b3be",
+  "berry_hunt_dusk": "92c8977ccc57",
+  "berry_hunt_night": "99e8813f1d67",
+  "berry_relax_dawn": "2507ec0f8a65",
+  "berry_relax_day": "45f21874ca31",
+  "berry_relax_dusk": "e0c7a723b36b",
+  "berry_relax_night": "e58b1f8d10a3",
+  "berry_stroll_dawn": "8fb1b87995e9",
+  "berry_stroll_day": "81f5ab2d4a76",
+  "berry_stroll_dusk": "1191f4edd8a1",
+  "berry_stroll_night": "c3a882b6ebc1",
+  "berry_top_dawn": "59752d7ff267",
+  "berry_top_day": "cfaa1c50e2d7",
+  "berry_top_dusk": "0dc9bf870bd3",
+  "berry_top_night": "dcc517689e9f",
+  "black_back_dawn": "b2a9384619f0",
+  "black_back_day": "121e8726fa08",
+  "black_back_dusk": "04aa315da04e",
+  "black_back_night": "e803bd869dfc",
+  "black_front_dawn": "bb0085836c06",
+  "black_front_day": "bdfac2457a41",
+  "black_front_dusk": "aaba2281da25",
+  "black_front_night": "085b9080e172",
+  "black_home_dawn": "0dd3cb9feac9",
+  "black_home_day": "a8ca96358931",
+  "black_home_dusk": "2fecc638f921",
+  "black_home_night": "970e06433c44",
+  "black_hunt_dawn": "eb39f2181878",
+  "black_hunt_day": "cbc9d0b95f63",
+  "black_hunt_dusk": "29113b3d9d6d",
+  "black_hunt_night": "1da748374657",
+  "black_relax_dawn": "ac320969c096",
+  "black_relax_day": "1c7339fc84a1",
+  "black_relax_dusk": "c84df72c0e13",
+  "black_relax_night": "9d954c7aa7a7",
+  "black_stroll_dawn": "44928c90ac95",
+  "black_stroll_day": "46b97efb16bc",
+  "black_stroll_dusk": "db8193fd43ca",
+  "black_stroll_night": "74ae3a05a80b",
+  "black_top_dawn": "c5d17a75d581",
+  "black_top_day": "123d99fcb992",
+  "black_top_dusk": "34f158bb50f3",
+  "black_top_night": "de9c8cfd48ec",
+  "gb_back_dawn": "eadd8a6d0362",
+  "gb_back_day": "51a2bc7d27fe",
+  "gb_back_dusk": "355fabd45649",
+  "gb_back_night": "e49c58b3e486",
+  "gb_front_dawn": "db1ce944acff",
+  "gb_front_day": "667233c36d82",
+  "gb_front_dusk": "f228dc88b4b1",
+  "gb_front_night": "45e3f2134e94",
+  "gb_home_dawn": "08e0b37934b7",
+  "gb_home_day": "c9e91470fac2",
+  "gb_home_dusk": "074cd1e8a90f",
+  "gb_home_night": "6deab0b266db",
+  "gb_hunt_dawn": "7de5228306cb",
+  "gb_hunt_day": "0383159c5f07",
+  "gb_hunt_dusk": "44babf5aec1e",
+  "gb_hunt_night": "5748c4c7fba1",
+  "gb_relax_dawn": "e760c5590349",
+  "gb_relax_day": "503f1783e100",
+  "gb_relax_dusk": "e2922b6db7ed",
+  "gb_relax_night": "24b561a559f4",
+  "gb_stroll_dawn": "1ef9d6e7d830",
+  "gb_stroll_day": "8db8cf98f526",
+  "gb_stroll_dusk": "c93e5686437f",
+  "gb_stroll_night": "ec3c568753c6",
+  "gb_top_dawn": "da1b63929038",
+  "gb_top_day": "319b7d21ac2d",
+  "gb_top_dusk": "79c74c5f70d9",
+  "gb_top_night": "c94ca5672402",
+  "nes_back_dawn": "01938443190d",
+  "nes_back_day": "08fd10514d25",
+  "nes_back_dusk": "fde0bccec0c0",
+  "nes_back_night": "cbd41d93ad9f",
+  "nes_front_dawn": "8dbcf033d146",
+  "nes_front_day": "cd467b9c5b7f",
+  "nes_front_dusk": "fb22d3d1b171",
+  "nes_front_night": "b22af0e0842e",
+  "nes_home_dawn": "b5ae69c71102",
+  "nes_home_day": "4a80c3268cd3",
+  "nes_home_dusk": "3cd6cea503e6",
+  "nes_home_night": "9817de68a5fa",
+  "nes_hunt_dawn": "ef5f26b084c7",
+  "nes_hunt_day": "26dfdfcda2df",
+  "nes_hunt_dusk": "0549eea37c7f",
+  "nes_hunt_night": "655a07d87552",
+  "nes_relax_dawn": "1b57b86e4524",
+  "nes_relax_day": "a0fb895952fd",
+  "nes_relax_dusk": "9fe0c77a93bb",
+  "nes_relax_night": "7e0ac48835ee",
+  "nes_stroll_dawn": "c370edb66ffe",
+  "nes_stroll_day": "c6f0b6e54a83",
+  "nes_stroll_dusk": "41107b4be8df",
+  "nes_stroll_night": "f2b6791127cd",
+  "nes_top_dawn": "61aec0c48d2f",
+  "nes_top_day": "0d25c1b75fe9",
+  "nes_top_dusk": "e38d13536207",
+  "nes_top_night": "33359550262d",
+  "silver_back_dawn": "ccee4d095d5b",
+  "silver_back_day": "50dc5cf114f2",
+  "silver_back_dusk": "3fbcf91c33a3",
+  "silver_back_night": "f5e4776ffa85",
+  "silver_front_dawn": "32acb6c7c8a7",
+  "silver_front_day": "11f5b5429c27",
+  "silver_front_dusk": "41e801ab0f3f",
+  "silver_front_night": "07aa0ec0c094",
+  "silver_home_dawn": "56d41122fb1a",
+  "silver_home_day": "2f0a2313595a",
+  "silver_home_dusk": "be3b2fb6dcac",
+  "silver_home_night": "fea36dd8f8c9",
+  "silver_hunt_dawn": "809e9241492a",
+  "silver_hunt_day": "0736a68a028d",
+  "silver_hunt_dusk": "8c1180ca82a8",
+  "silver_hunt_night": "d096af7af480",
+  "silver_relax_dawn": "90da3e8e7f01",
+  "silver_relax_day": "5d094725443c",
+  "silver_relax_dusk": "861d31e70fd9",
+  "silver_relax_night": "f3960896bce9",
+  "silver_stroll_dawn": "d0e46c4c56f5",
+  "silver_stroll_day": "4c65843ffa4e",
+  "silver_stroll_dusk": "8acdd572832b",
+  "silver_stroll_night": "992977b795a6",
+  "silver_top_dawn": "0a614bb8e2f4",
+  "silver_top_day": "630185e554fe",
+  "silver_top_dusk": "538db94fc5e5",
+  "silver_top_night": "8eb211867b75",
+  "tortie_back_dawn": "578d10811691",
+  "tortie_back_day": "1f7c31f698bd",
+  "tortie_back_dusk": "965409435edc",
+  "tortie_back_night": "c5e28583a98e",
+  "tortie_front_dawn": "c603915915b8",
+  "tortie_front_day": "d3aa0b6980e4",
+  "tortie_front_dusk": "7b3dd11af1c7",
+  "tortie_front_night": "5144a6c8dc81",
+  "tortie_home_dawn": "66eb52c21593",
+  "tortie_home_day": "f0aa0dcf40ed",
+  "tortie_home_dusk": "8e39016f1f64",
+  "tortie_home_night": "3331ae72fd73",
+  "tortie_hunt_dawn": "05edada1391d",
+  "tortie_hunt_day": "47488aeda63c",
+  "tortie_hunt_dusk": "1a0f36b8af62",
+  "tortie_hunt_night": "22ab095e1698",
+  "tortie_relax_dawn": "d884bcb9a0e3",
+  "tortie_relax_day": "a8b45c1da48d",
+  "tortie_relax_dusk": "f5606dd9a8dd",
+  "tortie_relax_night": "a305c2b02840",
+  "tortie_stroll_dawn": "8f4019641ac1",
+  "tortie_stroll_day": "5d64a9f325b5",
+  "tortie_stroll_dusk": "641ea7dabbb1",
+  "tortie_stroll_night": "a4a2ba0b1e4a",
+  "tortie_top_dawn": "6823bd5bcc50",
+  "tortie_top_day": "7a43e359f702",
+  "tortie_top_dusk": "5861bc2dc9b6",
+  "tortie_top_night": "b5e12e65d9b9"
+ }
+}
